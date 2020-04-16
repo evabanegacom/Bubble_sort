@@ -30,7 +30,6 @@ def bubble_sort_by(array)
   print array
 end
 
-
 x = [4, 5, 3, 7, 6, 8, 96]
 print bubble(x)
 bubble_sort_by(%w[hi hello hey]) do |left, right|
