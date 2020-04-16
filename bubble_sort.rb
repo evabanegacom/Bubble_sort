@@ -1,0 +1,24 @@
+# frozen_string_literal:true
+
+def bubble(array)
+  len_ = array.length - 1
+  sorted = false
+    while sorted == false
+    len_.times do |x|
+      if array[x] > array[x + 1]
+        array[x], array[x + 1] = array[x + 1], array[x]
+        sorted = true
+      end
+    end
+    len_ -= 1
+    break if sorted
+  end
+  array
+end
+
+
+  x = [4,5,3,7,6,8,96]
+  
+  print bubble(x)
+  
+  
