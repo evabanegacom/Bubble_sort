@@ -17,14 +17,14 @@ def bubble(array)
 end
 
 def bubble_sort_by(arr)
-    for i in 1..arr.length()
-         for j in (0..arr.length() -i -1)
-            if yield(arr[j],arr[j+1]).positive?
-                arr[j] , arr[j+1] = arr[j+1] , arr[j]
-            end
-        end
-    end
-    print arr
+  for i in 1..arr.length()
+    for j in (0..arr.length() - i - 1)
+      if yield(arr[j], arr[j + 1]).positive?
+        arr[j], arr[j + 1] = arr[j + 1], arr[j]
+      end
+      end
+  end
+  print arr
 end
 
 
