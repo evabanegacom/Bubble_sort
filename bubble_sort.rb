@@ -2,8 +2,8 @@
 
 def bubble(array)
   len_ = array.length - 1
-  sorted = false
-    while sorted == false
+  loop do
+    sorted = false
     len_.times do |x|
       if array[x] > array[x + 1]
         array[x], array[x + 1] = array[x + 1], array[x]
@@ -11,7 +11,7 @@ def bubble(array)
       end
     end
     len_ -= 1
-    break if sorted
+    break unless sorted
   end
   array
 end
