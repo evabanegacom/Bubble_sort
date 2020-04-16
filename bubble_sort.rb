@@ -27,11 +27,13 @@ def bubble_sort_by(array)
     len_ -= 1
     break unless sorted
   end
-  print array
+  array
 end
 
 x = [4, 5, 3, 7, 6, 8, 96]
 print bubble(x)
-bubble_sort_by(%w[hi hello hey]) do |left, right|
+bubble_by = bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
+
+print bubble_by
