@@ -1,6 +1,6 @@
 # Bubble_sort
 
-A demonstration of optimized bubble-sort method which sorts in ascending mode the elements of a collection using Ruby language. This is a project of the Microverse Ruby Course.
+A demonstration of optimized bubble-sort method which sorts in ascending mode the elements of a collection using Ruby language. This is a project of the Microverse Ruby Course .
 
 # Built With
 
